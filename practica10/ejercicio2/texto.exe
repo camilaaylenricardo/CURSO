@@ -1,0 +1,6 @@
+capitales['lugar']: indefinido
+capitales.lugar: indefinido
+capitales[lugar]: 'Montevideo'
+capitales['Argentina']: 'Buenos Aires'
+capitales.Argentina: 'Buenos Aires'
+capitales[Argentina]: Error por que argentina no esta definida

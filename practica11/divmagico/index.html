@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desaparecer Imagen con Magia</title>
+    <style>
+
+        #magia {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: relative;
+        }
+
+        #imagenMagica {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: opacity 0.3s ease;
+        }
+
+        #magia:hover #imagenMagica {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="magia">
+        <img id="imagenMagica" src="img.jpeg" alt="Imagen Mágica">
+    </div>
+
+    <div> Mágico
+
+    </div>
+</body>
+</html>

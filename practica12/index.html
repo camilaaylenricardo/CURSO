@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Typer D.</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <h2>⌨️ TYPER 3000 ⌨️</h2>
+      <p>Escribe la siguiente palabra:</p>
+      <h1 id="randomWord"></h1>
+      <input type="text" id="text" autocomplete="off" placeholder="Escribe la palabra aquí..." />
+      <p class="time-container">Tiempo restante: <span id="timeSpan">10s</span></p>
+      <p class="score-container">Puntaje: <span id="score">0</span></p>
+    </div>
+    <div id="end-game-container" class="end-game-container"></div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

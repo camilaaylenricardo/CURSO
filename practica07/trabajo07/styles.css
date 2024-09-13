@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo para todo el cuerpo */
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar-nav {
+    margin-left: 0; 
+}
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+}
+
+/* Estilos para la sección de Portfolio */
+
+#portfolio {
+    background-color: #fd7a00; /* Color de fondo */
+    padding: 60px 0; /* Espaciado interior */
+}
+
+#portfolio .card {
+    border: none; /* Sin borde en las tarjetas */
+    border-radius: 15px; /* Bordes redondeados */
+   
+}
+
+#portfolio .card-img-top {
+    border-top-left-radius: 15px; /* Redondear esquina superior izquierda */
+    border-top-right-radius: 15px; /* Redondear esquina superior derecha */
+}
+
+#portfolio .card-body {
+    padding: 30px; /* Espaciado interior del cuerpo */
+}
+
+
+/* Estilos para la sección de Acerca de mí */
+#about {
+    height: 300px;
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Tamaño de la fuente del título de Acerca de mí */
+    color: #000000; /* Color del texto del título de Acerca de mí */
+    margin-bottom: 30px; /* Margen inferior del título de Acerca de mí */
+}
+
+#about p {
+    font-size: 1.2rem; /* Tamaño de la fuente del texto de Acerca de mí */
+    color: #4d4a4a; /* Color del texto de Acerca de mí */
+    padding: 20px 0; /* Relleno interior superior e inferior */
+}
+
+
+/* Estilos para la sección de Contacto */
+#contact {
+    background-color: #fd7a00;; /* Color de fondo de la sección de Contacto */
+    padding: 60px 0; /* Relleno interior superior e inferior */
+}
+
+#contact h2 {
+    font-size: 2.5rem; /* Tamaño de la fuente del título de Contacto */
+    color: #000000; /* Color del texto del título de Contacto */
+    margin-bottom: 30px; /* Margen inferior del título de Contacto */
+}
+
+.form-label {
+    font-weight: bold; /* Texto en negrita para etiquetas de formulario */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1473d3; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color del texto del pie de página */
+    
+}

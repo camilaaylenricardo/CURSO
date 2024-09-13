@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Mostrar y Ocultar Imágenes</title>
+    <style>
+        /* Estilo para ocultar las imágenes inicialmente */
+        .oculto {
+            display: none;
+        }
+        /* Estilo para redondear las imágenes */
+        img {
+            border-radius: 10px;
+            cursor: pointer; /* Cambiar cursor a pointer cuando se pasa sobre la imagen */
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="row">
+        <!-- Primera fila con botones usando clases de Bootstrap -->
+        <div class="col">
+            <button class="btn btn-primary btn-block mb-3" id="showMoney">Show Me The Money</button>
+            <button class="btn btn-success btn-block mb-3" id="showMiami">Show Me Miami</button>
+            <button class="btn btn-danger btn-block" id="showMaiameee">Show Me Maiameee</button>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Segunda fila con imágenes -->
+        <div class="col">
+            <img src="imgshowmethemoney.jpeg" alt="Show Me The Money" class="img-fluid rounded oculto" id="moneyImage">
+            <img src="imgshowmemiami.jpeg" alt="Show Me Miami" class="img-fluid rounded oculto" id="miamiImage">
+            <img src="miame.jpeg" alt="Show Me Maiameee" class="img-fluid rounded oculto" id="maiameeeImage">
+        </div>
+    </div>
+
+    <!-- Agregar Bootstrap JS y jQuery para funcionalidad -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

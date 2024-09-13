@@ -1,0 +1,11 @@
+¿Qué devuelve miAuto[propertyKey]?
+propertyKey es 'modelo', por lo tanto, miAuto[propertyKey] equivale a miAuto['modelo']. Devuelve 'Corolla'.
+
+¿Qué devuelve miAuto["modelo"]?
+miAuto["modelo"] también devuelve 'Corolla', porque accede directamente a la propiedad 'modelo' del objeto miAuto.
+
+¿Qué devuelve miAuto[nextProperty]?
+nextProperty es 'color', entonces miAuto[nextProperty] equivale a miAuto['color']. Devuelve 'rojo'.
+
+¿Qué devuelve miAuto["color"]?
+miAuto["color"] devuelve 'rojo', ya que accede directamente a la propiedad 'color' del objeto miAuto.

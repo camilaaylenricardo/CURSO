@@ -1,0 +1,12 @@
+body {
+    height: 100vh; /* Establece la altura completa de la ventana */
+    background-image: url('https://i.imgur.com/jnCXdAx.jpg'); /* Fondo de la página */
+    background-size: cover;
+    background-position: center;
+    cursor: none; /* Oculta el cursor */
+}
+
+.sigue-cursor {
+    position: fixed; /* Posición fija para la imagen */
+    transition: top 2s, left 2s; /* Transición suave de movimiento */
+}
