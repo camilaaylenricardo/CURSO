@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.pancho {
+    
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pancho-bread-top{
+    width: 500px;
+    height: 70px;
+    background-color: #f1d66b;
+    border-radius: 40px;
+}
+
+.pancho-bread-bottom {
+    width: 500px;
+    height: 70px;
+    background-color: #f1d66b;
+    border-radius: 40px;
+}
+
+.pancho-sausage {
+    width: 570px;
+    height: 55px;
+    background-color: #ee6b6b;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción - Torneo de Fútbol</title>
+</head>
+<body>
+    <h1>Inscripción al Torneo de Fútbol</h1>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Información Básica</legend>
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selección de Categoría</legend>
+            <label for="categoria">Categoría:</label><br>
+            <select id="categoria" name="categoria" required>
+                <option value="sub-12">Sub-12</option>
+                <option value="sub-15">Sub-15</option>
+                <option value="sub-18">Sub-18</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Posición en el Campo</legend>
+            <label>Posición:</label><br>
+            <input type="radio" id="delantero" name="posicion" value="delantero" required>
+            <label for="delantero">Delantero</label><br>
+            
+            <input type="radio" id="mediocampista" name="posicion" value="mediocampista" required>
+            <label for="mediocampista">Mediocampista</label><br>
+            
+            <input type="radio" id="defensa" name="posicion" value="defensa" required>
+            <label for="defensa">Defensa</label><br>
+            
+            <input type="radio" id="portero" name="posicion" value="portero" required>
+            <label for="portero">Portero</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Términos y Condiciones</legend>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los <a href="#">términos y condiciones</a> del torneo</label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
