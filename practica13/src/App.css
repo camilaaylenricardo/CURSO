@@ -1,0 +1,11 @@
+.app-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.ejercicio {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}

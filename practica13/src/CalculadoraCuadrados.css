@@ -1,0 +1,33 @@
+.calculadora-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .input-numero {
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .btn-calcular {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-calcular:hover {
+    background-color: #45a049;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }

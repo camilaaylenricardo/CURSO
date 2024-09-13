@@ -1,0 +1,21 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .theme-toggle-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: #000;
+  }
